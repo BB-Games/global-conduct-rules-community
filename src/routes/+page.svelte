@@ -19,7 +19,7 @@
 
 	<ul>
 		<li>Common sense is key.</li>
-		<ul class="ulchild">
+		<ul>
 			<li><b>Don't be dumb.</b></li>
 			<li>This does include no spamming of any kind.</li>
 		</ul>
@@ -27,13 +27,13 @@
 			Use voice chat for talking, not spamming sound bites or enforcing your agendas on others.
 		</li>
 		<li>Don’t dominate voice chat, allow others to talk too.</li>
-		<ul class="ulchild"><li>Do not circumvent mutes through others.</li></ul>
+		<ul><li>Do not circumvent mutes through others.</li></ul>
 		<li>
 			Don’t be deliberately unhelpful or antagonize others, including telling people to Alt-F4 etc.
 		</li>
 		<li>No bypassing script enforcer / no third party cheats / exploits.</li>
 		<li>No harassment of any kind.</li>
-		<ul class="ulchild">
+		<ul>
 			<li>You can mute via the scoreboard or the /ignore social system so please use it.</li>
 		</ul>
 		<li>No advertising without prior permission.</li>
@@ -43,7 +43,7 @@
 		</li>
 	</ul>
 
-	<p id="obscene">
+	<p>
 		<strong
 			>Things such as obscene language are allowed as long as it's not aimed at others.
 		</strong>
