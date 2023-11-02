@@ -1,38 +1,13 @@
-# create-svelte
+# global-conduct-rules-community
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repo stores and manages the global conduct rules for the community. The intention behind having it here is that the guidelines can be tracked and updated over time, as well as being able to stylistically control it in a much easier fashion.
 
-## Creating a project
+Plus we can use GitHub Pages to host it for us 🤷
 
-If you're seeing this, you've probably already done this step. Congrats!
+## About
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+This repo is based upon the svelte framework (https://svelte.dev/). While we don't really take advantage of Svelte in this repo it _is_ able to output static pages nicely so there's no real downside to using it compared to say, plain html.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Contributing
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Feel free to open discussions here via issues over what you think should be added or changed. If you want to make a change yourself, feel free to fork the repo and open a PR with your changes. We'll review it and merge it in if it's good to go.
