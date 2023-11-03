@@ -1,7 +1,3 @@
-<script>
-	import { base } from '$app/paths';
-</script>
-
 <svelte:head>
 	<title>Global Guidelines for [BB] Servers</title>
 </svelte:head>
@@ -57,7 +53,7 @@
 	<p>
 		Admins will typically have the bb logo (<img
 			id="bblogo"
-			src="{base}/bb_admin.png"
+			src="./bb_admin.png"
 			alt="bb admin logo"
 		/>)
 		<i>or</i> a solid white [BB] tag next to their name. Anyone claiming to be an admin without this
