@@ -34,6 +34,13 @@
 		</ul>
 		<li>No advertising without prior permission.</li>
 		<li>
+			Any attempt to circumvent punishments may lead to harsher punishments being applied to your
+			account.
+		</li>
+		<ul>
+			<li>Continual attempts may lead to permanent removal from [BB] services.</li>
+		</ul>
+		<li>
 			Don't pose as an admin or try to represent the admin team in their absence, use /admin to
 			request assistance.
 		</li>
@@ -45,10 +52,10 @@
 		</strong>
 	</p>
 	<p>
-		These rules exist as your <i><strong>only</strong></i> warning, admins are not required to warn you
-		before any punishments are issued.
+		These guidelines exist as your <i><strong>only</strong></i> warning, admins are not required to warn
+		you before any punishments are issued.
 	</p>
-	<br />
+	<hr />
 	<p>All punishments must be appealed via the forum board or via the Discord forum, not in-game.</p>
 	<p>
 		Admins will typically have the bb logo (<img
