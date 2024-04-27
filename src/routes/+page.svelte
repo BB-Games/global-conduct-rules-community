@@ -1,3 +1,7 @@
+<script>
+	import Watermark from '../lib/components/footer-watermark.svelte';
+</script>
+
 <svelte:head>
 	<title>Global Guidelines for [BB] Servers</title>
 </svelte:head>
@@ -67,6 +71,8 @@
 		tag is an imposter.
 	</p>
 </div>
+
+<Watermark />
 
 <style>
 	:global(body) {
