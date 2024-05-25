@@ -39,9 +39,3 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: bb-rules
           directory: build
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          # Optional: Change the working directory
-          # workingDirectory: rules
-          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
-          wranglerVersion: '3'
