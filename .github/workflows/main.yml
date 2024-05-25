@@ -28,3 +28,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: bb-rules
           directory: build
+          branch: master
