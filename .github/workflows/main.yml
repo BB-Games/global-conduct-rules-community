@@ -1,9 +1,11 @@
 name: Build and Publish
 
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
+    pull_request:
+  
 
 jobs:
   build-app:
@@ -30,14 +32,16 @@ jobs:
         run: |
           pnpm build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          path: build
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: bb-rules
+          directory: build
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          # Optional: Change the working directory
+          workingDirectory: rules
+          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+          wranglerVersion: '3'
