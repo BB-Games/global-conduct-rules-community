@@ -26,10 +26,13 @@
 		<li>
 			Use voice chat for talking, not spamming sound bites or enforcing your agendas on others.
 		</li>
-		<li>Don’t dominate voice chat, allow others to talk too.</li>
+		<ul>
+			<li>When asked to move on from a topic, we ask that you respect the request and change the subject.</li>
+		</ul>
+		<li>Don't dominate voice chat, allow others to talk too.</li>
 		<ul><li>Do not circumvent mutes through others.</li></ul>
 		<li>
-			Don’t be deliberately unhelpful or antagonize others, including telling people to Alt-F4 etc.
+			Don't be deliberately unhelpful or antagonize others, including telling people to Alt-F4 etc.
 		</li>
 		<li>No bypassing script enforcer / no third party cheats / exploits.</li>
 		<li>No harassment of any kind.</li>
