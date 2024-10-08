@@ -58,6 +58,7 @@
 			>Things such as obscene language are allowed as long as it's not aimed at others.
 		</strong>
 	</p>
+	<p>This list is not exhaustive. Follow admin instructions at all times.</p>
 	<p>
 		These guidelines exist as your <i><strong>only</strong></i> warning, Admins are not required to warn
 		you before any punishments are issued.
