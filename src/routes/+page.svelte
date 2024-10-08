@@ -26,10 +26,13 @@
 		<li>
 			Use voice chat for talking, not spamming sound bites or enforcing your agendas on others.
 		</li>
-		<li>Don’t dominate voice chat, allow others to talk too.</li>
+		<ul>
+			<li>When asked to move on from a topic, we ask that you respect the request and change the subject.</li>
+		</ul>
+		<li>Don't dominate voice chat, allow others to talk too.</li>
 		<ul><li>Do not circumvent mutes through others.</li></ul>
 		<li>
-			Don’t be deliberately unhelpful or antagonize others, including telling people to Alt-F4 etc.
+			Don't be deliberately unhelpful or antagonize others, including telling people to Alt-F4 etc.
 		</li>
 		<li>No bypassing script enforcer / no third party cheats / exploits.</li>
 		<li>No harassment of any kind.</li>
@@ -45,7 +48,7 @@
 			<li>Continual attempts may lead to permanent removal from [BB] services.</li>
 		</ul>
 		<li>
-			Don't pose as an admin or try to represent the admin team in their absence, use /admin to
+			Don't pose as an Admin or try to represent the Admin team in their absence, use /admin to
 			request assistance.
 		</li>
 	</ul>
@@ -55,8 +58,9 @@
 			>Things such as obscene language are allowed as long as it's not aimed at others.
 		</strong>
 	</p>
+	<p>This list is not exhaustive. Follow staff instruction at all times.</p>
 	<p>
-		These guidelines exist as your <i><strong>only</strong></i> warning, admins are not required to warn
+		These guidelines exist as your <i><strong>only</strong></i> warning, Admins are not required to warn
 		you before any punishments are issued.
 	</p>
 	<hr />
@@ -67,7 +71,7 @@
 			src="./bb_admin.png"
 			alt="bb admin logo"
 		/>)
-		<i>or</i> a solid white [BB] tag next to their name. Anyone claiming to be an admin without this
+		<i>or</i> a solid white [BB] tag next to their name. Anyone claiming to be an Admin without this
 		tag is an imposter.
 	</p>
 </div>
