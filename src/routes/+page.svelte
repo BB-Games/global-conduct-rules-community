@@ -58,7 +58,7 @@
 			>Things such as obscene language are allowed as long as it's not aimed at others.
 		</strong>
 	</p>
-	<p>This list is not exhaustive. Follow admin instructions at all times.</p>
+	<p>This list is not exhaustive. Follow staff instruction at all times.</p>
 	<p>
 		These guidelines exist as your <i><strong>only</strong></i> warning, Admins are not required to warn
 		you before any punishments are issued.
@@ -71,7 +71,7 @@
 			src="./bb_admin.png"
 			alt="bb admin logo"
 		/>)
-		<i>or</i> a solid white [BB] tag next to their name. Anyone claiming to be an admin without this
+		<i>or</i> a solid white [BB] tag next to their name. Anyone claiming to be an Admin without this
 		tag is an imposter.
 	</p>
 </div>
