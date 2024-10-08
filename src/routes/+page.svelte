@@ -48,7 +48,7 @@
 			<li>Continual attempts may lead to permanent removal from [BB] services.</li>
 		</ul>
 		<li>
-			Don't pose as an admin or try to represent the admin team in their absence, use /admin to
+			Don't pose as an Admin or try to represent the Admin team in their absence, use /admin to
 			request assistance.
 		</li>
 	</ul>
@@ -59,7 +59,7 @@
 		</strong>
 	</p>
 	<p>
-		These guidelines exist as your <i><strong>only</strong></i> warning, admins are not required to warn
+		These guidelines exist as your <i><strong>only</strong></i> warning, Admins are not required to warn
 		you before any punishments are issued.
 	</p>
 	<hr />
