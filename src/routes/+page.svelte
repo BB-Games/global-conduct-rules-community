@@ -23,6 +23,7 @@
 			<li><b>Don't be dumb.</b></li>
 			<li>This does include no spamming of any kind.</li>
 		</ul>
+		<li><img id="bblogo" src="./bb_admin.png" alt="[BB]" /> is primarily an English speaking community. We ask that you respect that to help us moderate the server. </li>
 		<li>
 			Use voice chat for talking, not spamming sound bites or enforcing your agendas on others.
 		</li>
@@ -45,7 +46,7 @@
 			account.
 		</li>
 		<ul>
-			<li>Continual attempts may lead to permanent removal from [BB] services.</li>
+			<li>Continual attempts may lead to permanent removal from <img id="bblogo" src="./bb_admin.png" alt="[BB]" /> services.</li>
 		</ul>
 		<li>
 			Don't pose as an Admin or try to represent the Admin team in their absence, use /admin to
