@@ -27,6 +27,7 @@
 
 	"resolutions": {
 		"cookie": "^0.7.0",
-		"esbuild": "^0.25"
+		"esbuild": "^0.25",
+		"devalue": "^5.3.2"
 	}
 }
