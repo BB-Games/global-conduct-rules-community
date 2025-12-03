@@ -10,7 +10,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^2.49.0",
+		"@sveltejs/kit": "^2.49.1",
 		"eslint": "^9.39.1",
 		"eslint-config-prettier": "^10.1.5",
 		"eslint-plugin-svelte": "^3.13.0",
