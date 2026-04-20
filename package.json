@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^2.57.1",
-		"eslint": "^10.2.0",
+		"eslint": "^10.2.1",
 		"eslint-config-prettier": "^10.1.5",
 		"eslint-plugin-svelte": "^3.17.0",
 		"prettier": "^3.8.3",
