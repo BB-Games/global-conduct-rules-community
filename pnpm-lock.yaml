@@ -15,14 +15,14 @@ importers:
     dependencies:
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
-        version: 3.0.10(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))
+        version: 3.0.10(@sveltejs/kit@2.59.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.0.0
         version: 7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))
     devDependencies:
       '@sveltejs/kit':
-        specifier: ^2.58.0
-        version: 2.58.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))
+        specifier: ^2.59.0
+        version: 2.59.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))
       eslint:
         specifier: ^10.3.0
         version: 10.3.0
@@ -395,8 +395,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.58.0':
-    resolution: {integrity: sha512-kT9GCN8yJTkCK1W+Gi/bvGooWAM7y7WXP+yd+rf6QOIjyoK1ERPrMwSufXJUNu2pMWIqruhFvmz+LbOqsEmKmA==}
+  '@sveltejs/kit@2.59.0':
+    resolution: {integrity: sha512-WeJaGKvDf3uVQB4bnDHhM+BXCY34LC1v0HiPqnSpvNkjB54r8DAUP1rpk73s+5zprIirEKtUcVfgh6+fPODjzQ==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -508,6 +508,9 @@ packages:
 
   devalue@5.7.1:
     resolution: {integrity: sha512-MUbZ586EgQqdRnC4yDrlod3BEdyvE4TapGYHMW2CiaW+KkkFmWEFqBUaLltEZCGi0iFXCEjRF0OjF0DV2QHjOA==}
+
+  devalue@5.8.0:
+    resolution: {integrity: sha512-2zA9pFEsnp7vWBZbXF5JAgAq0fsUIt/1XPbRiAmRV3lp/2C3upzH+sADiyy66aFCihoLEsrQHxNM5w1gIDfsBg==}
 
   esbuild@0.25.12:
     resolution: {integrity: sha512-bbPBYYrtZbkt6Os6FiTLCTFxvq4tt3JKall1vRwshA3fdVztsLAatFaZobhkBC8/BrPetoa0oksYoKXoG4ryJg==}
@@ -1237,11 +1240,11 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))':
+  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.59.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))':
     dependencies:
-      '@sveltejs/kit': 2.58.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))
+      '@sveltejs/kit': 2.59.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))
 
-  '@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))':
+  '@sveltejs/kit@2.59.0(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12)))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(vite@8.0.10(esbuild@0.25.12))':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.9(acorn@8.16.0)
@@ -1249,7 +1252,7 @@ snapshots:
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.7.2
-      devalue: 5.7.1
+      devalue: 5.8.0
       esm-env: 1.2.2
       kleur: 4.1.5
       magic-string: 0.30.21
@@ -1332,6 +1335,8 @@ snapshots:
   detect-libc@2.1.2: {}
 
   devalue@5.7.1: {}
+
+  devalue@5.8.0: {}
 
   esbuild@0.25.12:
     optionalDependencies:
