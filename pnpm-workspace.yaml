@@ -2,3 +2,6 @@ overrides:
   cookie: "^0.7.0"
   esbuild: "^0.25"
   devalue: "^5.3.2"
+allowBuilds:
+  workerd: true
+  esbuild: true
