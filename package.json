@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"@sveltejs/kit": "^2.60.1",
 		"eslint": "^10.3.0",
-		"eslint-config-prettier": "^10.1.5",
+		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.17.1",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^3.5.2",
@@ -23,11 +23,4 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2"
-	},
-
-	"resolutions": {
-		"cookie": "^0.7.0",
-		"esbuild": "^0.25",
-		"devalue": "^5.3.2"
-	}
-}
+	}}
