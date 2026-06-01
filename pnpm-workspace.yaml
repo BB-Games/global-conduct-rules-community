@@ -5,3 +5,4 @@ overrides:
 allowBuilds:
   workerd: true
   esbuild: true
+  sharp: true
