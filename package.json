@@ -22,5 +22,5 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/vite-plugin-svelte": "^7.1.2"
+		"@sveltejs/vite-plugin-svelte": "^7.1.4"
 	}}
