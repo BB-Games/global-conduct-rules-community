@@ -8,27 +8,54 @@ on:
 concurrency:
   group: main
   cancel-in-progress: true
-  
+
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   build-app:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v7
+        uses: actions/checkout@v6
 
-      - uses: pnpm/action-setup@v6
+      - name: Check for pnpm cutoff bypass
+        id: pnpm-cutoff
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bypass="$(
+            gh api \
+              --header "Accept: application/vnd.github+json" \
+              "/repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/pulls" \
+              --jq '
+                any(
+                  .[];
+                  .merged_at != null and
+                  any(.labels[]?; .name == "bypass-pnpm-cutoff")
+                )
+              '
+          )"
+
+          echo "bypass=${bypass}" >> "${GITHUB_OUTPUT}"
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6
+        env:
+          pnpm_config_minimum_release_age: ${{ steps.pnpm-cutoff.outputs.bypass == 'true' && '0' || '1440' }}
         with:
           version: 11
           run_install: true
 
       - name: Build App
-        run: |
-          pnpm build
+        run: pnpm build
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         env:
-          environment: "production"
+          environment: production
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

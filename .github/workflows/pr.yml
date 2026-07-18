@@ -2,27 +2,37 @@ name: Build (PR)
 
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
 
 jobs:
   build-app:
     runs-on: ubuntu-latest
+    env:
+      pnpm_config_minimum_release_age: ${{ contains(github.event.pull_request.labels.*.name, 'bypass-pnpm-cutoff') && '0' || '1440' }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
 
-      - uses: pnpm/action-setup@v6
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6
         with:
           version: 11
           run_install: true
 
       - name: Build App
-        run: |
-          pnpm build
+        run: pnpm build
 
       - name: Publish to Cloudflare Pages
+        if: contains(github.event.pull_request.labels.*.name, 'deploy-cloudflare')
         uses: cloudflare/wrangler-action@v4
         env:
-          environment: "staging"
+          environment: staging
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
