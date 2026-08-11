@@ -42,7 +42,7 @@ jobs:
           echo "bypass=${bypass}" >> "${GITHUB_OUTPUT}"
 
       - name: Set up pnpm
-        uses: pnpm/action-setup@v6.0.9
+        uses: pnpm/action-setup@v6.0.10
         env:
           pnpm_config_minimum_release_age: ${{ steps.pnpm-cutoff.outputs.bypass == 'true' && '0' || '1440' }}
         with:
