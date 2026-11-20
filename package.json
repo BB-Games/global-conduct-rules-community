@@ -11,14 +11,14 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "^2.70.3",
-		"eslint": "^10.14.0",
+		"eslint": "^10.15.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.24.1",
-		"postcss": "^8.5.32",
-		"prettier": "^3.9.10",
+		"postcss": "^8.5.33",
+		"prettier": "^3.10.1",
 		"prettier-plugin-svelte": "^4.1.1",
 		"svelte": "^5.57.3",
-		"vite": "^8.3.6"
+		"vite": "^8.3.8"
 	},
 	"type": "module",
 	"dependencies": {
